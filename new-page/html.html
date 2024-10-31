@@ -2,7 +2,7 @@
 title: page html
 description: 
 published: true
-date: 2024-10-31T18:21:35.735Z
+date: 2024-10-31T18:22:53.225Z
 tags: 
 editor: code
 dateCreated: 2024-10-31T18:21:35.735Z
@@ -35,3 +35,32 @@ dateCreated: 2024-10-31T18:21:35.735Z
             <li><strong>ClickSign:</strong> Plataforma de assinatura digital para formalização de contratos.</li>
         </ul>
     </section>
+
+### Simple Left-Right Graph
+```mermaid
+graph LR;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+```
+
+### Simple Graph to Mark Chapters
+
+```mermaid
+flowchart LR
+    a[Chapter 1] --> b[Chapter 2] --> c[Chapter 3]
+    c-->d[Using Ledger]
+    c-->e[Using Trezor]
+    d-->f[Chapter 4]
+    e-->f
+```
+
+### Simple Top-Down Graph
+```mermaid
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+```
